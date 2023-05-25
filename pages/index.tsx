@@ -240,7 +240,7 @@ const Home: NextPage = () => {
                     <p>
                       <b>{numberClaimed}</b>
                       {" / "}
-                      {numberTotal || "∞"}
+                      {numberTotal || "1000"}
                     </p>
                   ) : (
                     // Show loading state if we're still loading the supply
